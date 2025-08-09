@@ -1,0 +1,31 @@
+{% extends "base.html"%} 
+{%block title %} Index Page {%endblock%}
+{%block content%}    
+
+    <p> hello world</p>
+
+    <form method="POST" action=" {{url_for('index')}}">
+        <input type="text" name="username" placeholder="username"><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <input type="submit" value =  "login"> 
+
+    </form>
+
+    <h1> file upload </h1><br>
+
+    <br method="POST" action= "{{url_for('file_upload')}}" enctype="multipart/form-data">
+        <input type = "file" name="File" accept="text/plain" required="required">
+        <input type = 'submit' value = 'Upload file' ><br>
+
+    </form>
+
+    <p> {{message}}</p>
+
+    <a href = "{{url_for('set_data')}}"> set session data</a><br><br>
+     <a href = "{{url_for('get_data')}}"> get session data</a><br><br>
+     <a href = "{{url_for('clear_session')}}"> clear session</a><br><br>
+     <a href = "{{url_for('set_cookies')}}"> set cookie</a><br><br>
+     <a href = "{{url_for('get_cookies')}}"> get cookie</a><br><br>
+     <a href = "{{url_for('remove_cookies')}}"> remove cookie</a><br><br>
+{% endblock%}
+    
