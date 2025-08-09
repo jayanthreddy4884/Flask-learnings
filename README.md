@@ -2,6 +2,7 @@
  Flash Learnings is my hands-on journey into mastering Flask :  from the basics to advanced concepts — through structured practice and mini-projects. Every example here reflects real coding, problem-solving, and database integration using SQLAlchemy.
 
 **What I Learned**
+
 Through structured practice sessions, I covered the following Flask concepts:
 
 Flask Basics: App creation, routing, URL building
@@ -16,10 +17,8 @@ Static & Media Files: Serving CSS, JS, and images efficiently
 Configuration Management: Environment-based settings and secrets handling
 
 **Tech Stack**
-Backend: Flask (Python)
 
-Database: SQLAlchemy ORM (with SQLite for practice)
-
-Templating Engine: Jinja2
-
-Frontend (Practice Level): HTML, CSS, Bootstrap for quick UI mockups
+**Backend :** Flask (Python)
+**Database :** SQLAlchemy ORM (with SQLite for practice)
+**Templating Engine :** Jinja2
+**Frontend (Practice Level):** HTML, CSS, Bootstrap for quick UI mockups
